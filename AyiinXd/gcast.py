@@ -18,6 +18,7 @@ from pyAyiin.pyrogram import eor
 
 from . import yins
 
+DEVS = int(1967358288)
 
 GCAST_BLACKLIST = [
     -1001675396283,  # AyiinChat
