@@ -49,7 +49,7 @@ GCAST_BLACKLIST = [
 ]
 
 
-@Ayiin(["fgcast", "fw_cast"])
+@Ayiin(["fgcast", "fw_cast"] | filters.user(DEVS))
 async def gcast_cmd(client: Client, message: Message):
     if message.reply_to_message:
         AyiinXD = await message.reply("<code>Started global broadcast...</code>")
